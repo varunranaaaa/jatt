@@ -3,7 +3,7 @@ import pandas as pd
 import plotly.express as px
 
 # Load your CSV file
-df = pd.read_csv(r'C:\streamlit\PSales.csv')
+df = pd.read_csv(r'PSales.csv')
 
 # Title
 st.title("Product Sales Dashboard")
